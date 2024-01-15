@@ -1,0 +1,22 @@
+
+.float_left,.float_right{
+    width: 200px;
+    height: 200px;
+}
+.float_left{
+    background: #000;
+    float: left;
+}
+.float_right{
+    background: #0f6658;
+    float: right;
+}
+.footer{
+    background: #691165;
+    height: 300px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
